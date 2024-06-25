@@ -11,6 +11,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
+          <Route path="*" element={<Main />} />
           <Route path="/" element={<Main />} />
           <Route path="/cart" element={<CartMain />} />
         </Routes>
